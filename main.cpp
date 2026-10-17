@@ -27,8 +27,8 @@ int main() {
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Pong Variations");
     SetTargetFPS(60);
 
-    Texture2D paddleTexture = LoadTexture("assets/paddle.png");
-    Texture2D ballTexture = LoadTexture("assets/ball.png");
+    Texture2D paddleTexture = LoadTexture("paddle.png");
+    Texture2D ballTexture = LoadTexture("ball.png");
 
     Rectangle left = { 35, 175, 18, 100 };
     Rectangle right = { 747, 175, 18, 100 };
